@@ -3,6 +3,7 @@ from passlib.hash import pbkdf2_sha256 as cryp
 
 class Usuario:
 
+   
     def __init__(self, nome, sobrenome, email, senha):
         self.__nome = nome
         self.__sobrenome = sobrenome
